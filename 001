@@ -1,0 +1,4 @@
+curl 'https://oapi.dingtalk.com/robot/send?access_token=ac0764f985649892b0268a935e9a3b21763f345fd4e8408a06db9eecce81d3a7
+' \
+ -H 'Content-Type: application/json' \
+ -d '{"msgtype": "text","text": {"content":"全是小黑子"}}'
